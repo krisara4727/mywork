@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Brochure Site</title>
+    <link rel='stylesheet' href="styles.css">
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div id="total_page">
+    <div id="logo_jalpan">
+      <img src="jalpan1.jpg" alt="Image failed to load" class="w3-image" >
+    </div>
+
+    <div class="w3-bar w3-bar-color">
+      <p id="items">
+     <a href="#" class="w3-bar-item w3-button w3-mobile">Home</a>
+     <a href="#" class="w3-bar-item w3-button w3-mobile">Services</a>
+     <a href="#" class="w3-bar-item w3-button w3-mobile">Programs</a>
+     <a href="#" class="w3-bar-item w3-button w3-mobile">Team</a>
+     <a href="#" class="w3-bar-item w3-button w3-mobile">Galleries</a>
+     <a href="#" class="w3-bar-item w3-button w3-mobile">Staff</a>
+     <a href="#" class="w3-bar-item w3-button w3-mobile">Contact</a>
+</p>
+    </div>
+
+    <div >
+
+      <img class="mySlides w3-animate-right w3-image2" src="jalpan2.jpg" >
+      <img class="mySlides w3-animate-right w3-image2" src="photo1.jpg" >
+      <img class="mySlides w3-animate-right w3-image2" src="photo2.jpeg" >
+    </div>
+
+
+    <script>
+    var myIndex = 0;
+
+
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}
+
+      x[myIndex-1].style.display = "block";
+      setTimeout(carousel, 3500);
+    }
+    carousel();
+    </script>
+
+
+
+  <div class="row">
+  <div class="column2">
+    <p class="center">
+    <img src="location.png" alt="location of jalpaan">
+</p>
+    <span style="text-align:center">Click the location icon to Check our Location.</span>
+
+  </div>
+  <div class="column2">
+    <div class="box">
+      <div class="row">
+        <div class="column above">
+
+      <div style="color:red">J</div>
+      <div style="color:red">A</div>
+      <div style="color:green">L</div>
+      <div style="color:black">P</div>
+      <div style="color:black">A</div>
+      <div style="color:black">A</div>
+      <div style="color:black">N</div>
+    </div>
+    <div class="column below">
+    <small>pure veg restuarant</small>
+    </div>
+    </div>
+      </div>
+</div>
+
+<div class="column2">
+<p class="center">
+  <img src="review.png" alt="reviews of jalpan">
+</p>
+<span style="text-align:center">Click on the Reviews icon to check our reviews.</span>
+</div>
+</div>
+
+<div class="footer">
+  <div class="row">
+    <div class="column3">
+      <p style="font-size:25px;color:violet">JALpaan Restuarant : Choose your dine place.</p>
+      <p>Food is what people and animals eat to survive. Food usually comes from animals and plants. It is eaten by living things to provide energy and nutrition.[1] Food contains the nutrition that people and animals need to be healthy. The consumption of food is normally enjoyable to humans. It contains protein, fat, carbohydrates, vitamins, water and minerals[2]. Liquids used for energy and nutrition are often called "drinks". If someone cannot afford food they go hungry.</p>
+    </div>
+    <div class="column4">
+      <p style="text-decoration:underline">Headlines:</p>
+      <p>Today's headlines</p>
+      <a href="#">www.something.com</a>
+    </div>
+    <div class="column5">
+    <p style="text-decoration:underline">Contact Us</p>
+    <a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-instagram"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-google"></a>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
