@@ -89,6 +89,7 @@ body{
 .box > div{
   text-align: center;
   font-size: 23px;
+  overflow: auto;
 }
 *{
   box-sizing: border-box;
