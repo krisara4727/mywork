@@ -139,18 +139,18 @@ body{
   width:48%;
   float:left;
   padding:10px;
-  border-right: 2px solid black;
+  border-right: 2px solid #4f4e4a;
 }
 .column4{
   width:24%;
   float: left;
-  border-right: 2px solid black;
+  border-right: 2px solid #4f4e4a;
 
 }
 .column5{
   width:24%;
   float:left;
-  border-right: 2px solid black;
+  border-right: 2px solid #4f4e4a;
 }
 .fa {
   padding: 20px;
